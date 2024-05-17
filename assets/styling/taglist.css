@@ -1,0 +1,64 @@
+body {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6fa;
+    overflow-x: hidden;
+}
+.navbar {
+    background-color:#fff;
+    border-top: 4px solid #0077cc;
+    padding: 17px 150px; /* Increased padding */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar ul {
+    padding: 0;
+    margin: 0;
+}
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0077cc ;
+    padding: 10px 20px; /* Increased padding */
+    border-radius: 3px; /* Rounded corners */
+    border: 1px solid transparent; /* Transparent border */
+}
+.navbar a:hover {
+    background-color: #f5f6fa;
+    color: #00003f; /* Darker background color on hover */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto; /* Adjust the margin to center the container vertically */
+    margin-top:30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px 0;
+}
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+h1 {
+    font-family: Calibri;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px; /* Adjust the margin to make content visible below the navbar */
+}

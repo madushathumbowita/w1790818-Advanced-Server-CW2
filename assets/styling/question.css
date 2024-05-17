@@ -1,0 +1,123 @@
+body {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6fa;
+    overflow-x: hidden;
+}
+.navbar {
+    background-color:#fff;
+    border-top: 4px solid #0077cc;
+    padding: 17px 150px; /* Increased padding */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar ul {
+    padding: 0;
+    margin: 0;
+}               
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}               
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0077cc ;
+    padding: 10px 20px; /* Increased padding */
+    border-radius: 3px; /* Rounded corners */
+    border: 1px solid transparent; /* Transparent border */
+}
+.navbar a:hover {
+    background-color: #f5f6fa;
+    color: #00003f; /* Darker background color on hover */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    margin-bottom:10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}                           
+.container2{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.container2 form {
+    margin-top:0px;
+}
+h2 {
+    font-family: Calibri;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 3px;
+    color:#0077cc;
+}
+h3 {
+    font-family: Calibri;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 20px;
+}
+p {
+    margin: 10px 0;
+}
+ul {
+    margin-top:-20px;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px 0;
+    margin-bottom:-6px;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+textarea {
+    width: calc(100% - 12px);
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submit_answer {
+    margin-top:7px;
+    padding: 8px 16px;
+    margin-left:350px;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit_answer:hover {
+    background-color: #005faa;
+}
+.savequestion{
+    margin-top:5px;
+    margin-bottom:8px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
